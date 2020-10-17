@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="CSS/Validation.css">
+</head>
+<body>
+    <div id="main">
+        <form id = "form">
+            <label for="fName">First Name :</label>
+            <input type="text" id="fName" name="fName" placeholder="Enter First Name" required>
+            <label for="lName">Last Name :</label>
+            <input type="text" id="lName" name="lName" placeholder="Enter Last Name" required><br>
+            <label for="pWord">Password :</label>
+            <input type="password" id="pWord" name="pWord" placeholder="Enter Password" required><br>
+            <label for="CWord">Confirm Password :</label>
+            <input type="password" id="CWord" name="CWord" placeholder="Re-Enter Password" required><br>
+            <label for="mail">Email :</label>
+            <input type="email" id="mail" name="mail" placeholder="Enter Email" required><br>
+            <button type="submit" id="login" form="form">Login</button>
+        </form>
+    </div>
+    <script src="JS/Validation.js"></script>
+</body>
+</html>
